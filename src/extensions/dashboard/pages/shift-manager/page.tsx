@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from "react";
+import { dashboard } from "@wix/dashboard";
+import { items } from "@wix/data";
 import {
-  WixDesignSystemProvider,
-  Page,
-  Card,
-  Table,
-  TableToolbar,
-  Button,
   Box,
+  Button,
+  Card,
+  Cell,
+  EmptyState,
   FormField,
   Input,
-  EmptyState,
   Layout,
-  Cell,
+  Page,
+  Table,
+  TableToolbar,
+  WixDesignSystemProvider,
 } from "@wix/design-system";
 import "@wix/design-system/styles.global.css";
 import { Add } from "@wix/wix-ui-icons-common";
-import { items } from "@wix/data";
-import { dashboard } from "@wix/dashboard";
+import { useEffect, useState } from "react";
 
 const COLLECTION_ID = "@orda266/my-appvkg45g/employee-shifts";
 
@@ -24,7 +24,7 @@ interface Shift {
   _id: string;
   employeeName: string;
   date: string;
-  hours: number;
+  hours: string;
 }
 
 interface ShiftForm {
