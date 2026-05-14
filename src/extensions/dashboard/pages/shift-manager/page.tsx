@@ -119,7 +119,7 @@ export default function ShiftManagerPage() {
     {
       title: "Hours",
       render: (row: Shift) => row.hours,
-      width: "40%",
+      width: "50%",
     },
   ];
 
