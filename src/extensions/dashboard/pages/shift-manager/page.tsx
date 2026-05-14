@@ -114,7 +114,7 @@ export default function ShiftManagerPage() {
     {
       title: "Date",
       render: (row: Shift) => row.date,
-      width: "35%",
+      width: "40%",
     },
     {
       title: "Hours",
