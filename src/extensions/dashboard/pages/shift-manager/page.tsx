@@ -109,7 +109,7 @@ export default function ShiftManagerPage() {
     {
       title: "Employee Name",
       render: (row: Shift) => row.employeeName,
-      width: "50%",
+      width: "20%",
     },
     {
       title: "Date",
