@@ -127,8 +127,8 @@ export default function ShiftManagerPage() {
     <WixDesignSystemProvider>
       <Page height="100vh">
         <Page.Header
-          title="Shift Managerhghgaaabc"
-          subtitle="Manage employee shiftshgfhgfhaaaaa"
+          title="Shift Managerhghdsadasddsadasdassdsdsadadsda"
+          subtitle="Manage employee shiftshgfhgfh"
           actionsBar={
             <Button
               prefixIcon={<Add />}
