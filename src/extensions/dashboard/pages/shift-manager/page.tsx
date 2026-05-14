@@ -128,7 +128,7 @@ export default function ShiftManagerPage() {
       <Page height="100vh">
         <Page.Header
           title="Shift Managerhghdsadasddsadasdassdsdsadadsdab"
-          subtitle="Manage employee shiftshgfhgfh"
+          subtitle="Manage employee shiftshgfhgfh123"
           actionsBar={
             <Button
               prefixIcon={<Add />}
