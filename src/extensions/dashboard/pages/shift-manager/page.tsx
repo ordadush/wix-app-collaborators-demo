@@ -24,7 +24,7 @@ interface Shift {
   _id: string;
   employeeName: string;
   date: string;
-  hours: string;
+  hours: number;
 }
 
 interface ShiftForm {
@@ -55,7 +55,7 @@ export default function ShiftManagerPage() {
           _id: item["_id"] as string,
           employeeName: item["employeeName"] as string,
           date: item["date"] as string,
-          hours: item["hours"],
+          hours: item["hours"] as number,
         }))
       );
     } catch (e) {
@@ -109,7 +109,7 @@ export default function ShiftManagerPage() {
     {
       title: "Employee Name",
       render: (row: Shift) => row.employeeName,
-      width: "70%",
+      width: "40%",
     },
     {
       title: "Date",
