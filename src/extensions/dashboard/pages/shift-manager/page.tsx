@@ -55,7 +55,7 @@ export default function ShiftManagerPage() {
           _id: item["_id"] as string,
           employeeName: item["employeeName"] as string,
           date: item["date"] as string,
-          hours: item["hours"] as number,
+          hours: item["hours"],
         }))
       );
     } catch (e) {
