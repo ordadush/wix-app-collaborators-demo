@@ -48,7 +48,7 @@ export default function ShiftManagerPage() {
       const result = await items
         .query(COLLECTION_ID)
         .descending("date")
-        .limit(100)
+        .limit(300)
         .find();
       setShifts(
         result.items.map((item) => ({
