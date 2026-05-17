@@ -28,11 +28,7 @@ const CollaboratorsDryRun: FC<WidgetProps> = ({
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [mounted, setMounted] = useState(false);
 
-<<<<<<< HEAD
-  //asdsajdsadjasdasdsaaaa
-=======
   //asdsajdsadjasd
->>>>>>> origin/main
 
   useEffect(() => {
     setMounted(true);
