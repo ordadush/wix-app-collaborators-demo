@@ -28,8 +28,6 @@ const CollaboratorsDryRun: FC<WidgetProps> = ({
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [mounted, setMounted] = useState(false);
 
-  //asdsajdsadjasd
-
   useEffect(() => {
     setMounted(true);
   }, []);
