@@ -18,7 +18,7 @@ const collaborators = [
 ];
 
 const CollaboratorsDryRun: FC<WidgetProps> = ({
-  title = 'Collaborators Dry Run',
+  title = 'YAY GREAT DEMO',
   subtitle = 'Active team members',
   bgColor = '#0d0f1a',
   accentColor = '#6c63ff',
