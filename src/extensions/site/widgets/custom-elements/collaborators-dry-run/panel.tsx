@@ -17,7 +17,7 @@ const DEFAULT_TEXT = '#e8e6ff';
 const ColorField: FC<{ label: string; value: string; onChange: (v: string) => void }> = ({ label, value, onChange }) => (
   <SidePanel.Field>
     <FormField label={label}>
-        <Box width="45px" height="45px">
+        <Box width="50px" height="50px">
         <FillPreview
           fill={value}
           onClick={() =>
