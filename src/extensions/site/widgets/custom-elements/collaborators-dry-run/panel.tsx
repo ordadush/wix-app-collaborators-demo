@@ -10,7 +10,7 @@ import '@wix/design-system/styles.global.css';
 import { inputs, widget } from '@wix/editor';
 import React, { type FC, useCallback, useEffect, useState } from 'react';
 
-const DEFAULT_BG = '#290505ff';
+const DEFAULT_BG = '#ff0000ff';
 const DEFAULT_ACCENT = '#ffffffff';
 const DEFAULT_TEXT = '#e8e6ff';
 
