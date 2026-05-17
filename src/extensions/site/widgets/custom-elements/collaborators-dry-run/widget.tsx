@@ -17,6 +17,7 @@ const collaborators = [
   { id: '4', name: 'Morgan Blake', role: 'Backend Dev', avatar: 'MB', status: 'active' },
 ];
 
+
 const CollaboratorsDryRun: FC<WidgetProps> = ({
   title = 'YAY GREAT DEMO2',
   subtitle = 'Active team members',
@@ -27,7 +28,7 @@ const CollaboratorsDryRun: FC<WidgetProps> = ({
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [mounted, setMounted] = useState(false);
 
-  //asdsajdsadjasdasdsaaa
+  //asdsajdsadjasdasdsaaaa
 
   useEffect(() => {
     setMounted(true);
