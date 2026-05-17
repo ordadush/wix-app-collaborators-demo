@@ -10,11 +10,11 @@ export const customelementwidgetCollaboratorsDryRun = extensions.customElement({
     autoAdd: true,
   },
   width: {
-    defaultWidth: 480,
+    defaultWidth: 40,
     allowStretch: true,
   },
   height: {
-    defaultHeight: 400,
+    defaultHeight: 40,
   },
   createdBy: {
     author: "CODE_GEN",
