@@ -1,4 +1,4 @@
-import React, { type FC, useState, useEffect } from 'react';
+import React, { type FC, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import reactToWebComponent from 'react-to-webcomponent';
 
@@ -11,7 +11,7 @@ interface WidgetProps {
 }
 
 const collaborators = [
-  { id: '1', name: 'Alex Rivera', role: 'Design Lead', avatar: 'AR', status: 'active' },
+  { id: '1', name: 'aAlex Rivera', role: 'Design Lead', avatar: 'AR', status: 'active' },
   { id: '2', name: 'Sam Chen', role: 'Frontend Dev', avatar: 'SC', status: 'active' },
   { id: '3', name: 'Jordan Lee', role: 'Product Manager', avatar: 'JL', status: 'idle' },
   { id: '4', name: 'Morgan Blake', role: 'Backend Dev', avatar: 'MB', status: 'active' },
