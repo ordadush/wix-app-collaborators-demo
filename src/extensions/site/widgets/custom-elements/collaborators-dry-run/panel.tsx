@@ -1,16 +1,16 @@
-import React, { type FC, useState, useEffect, useCallback } from 'react';
-import { widget, inputs } from '@wix/editor';
 import {
-  SidePanel,
-  WixDesignSystemProvider,
-  Input,
-  FormField,
   Box,
   FillPreview,
+  FormField,
+  Input,
+  SidePanel,
+  WixDesignSystemProvider,
 } from '@wix/design-system';
 import '@wix/design-system/styles.global.css';
+import { inputs, widget } from '@wix/editor';
+import React, { type FC, useCallback, useEffect, useState } from 'react';
 
-const DEFAULT_BG = '#f9f9f9ff';
+const DEFAULT_BG = '#101010ff';
 const DEFAULT_ACCENT = '#6c63ff';
 const DEFAULT_TEXT = '#e8e6ff';
 
