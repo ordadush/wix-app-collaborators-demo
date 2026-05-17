@@ -10,7 +10,7 @@ import {
 } from '@wix/design-system';
 import '@wix/design-system/styles.global.css';
 
-const DEFAULT_BG = '#f9f9f9ff';
+const DEFAULT_BG = '#eb0000ff';
 const DEFAULT_ACCENT = '#6c63ff';
 const DEFAULT_TEXT = '#e8e6ff';
 
