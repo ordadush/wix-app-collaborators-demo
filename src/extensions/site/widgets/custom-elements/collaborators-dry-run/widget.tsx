@@ -11,7 +11,7 @@ interface WidgetProps {
 }
 
 const collaborators = [
-  { id: '1', name: 'SHARON Mayimon', role: 'Design Lead', avatar: 'AR', status: 'active' },
+  { id: '1', name: 'SHARON chen', role: 'Design Lead', avatar: 'AR', status: 'active' },
   { id: '2', name: 'Sam Chen', role: 'Frontend Dev', avatar: 'SC', status: 'active' },
   { id: '3', name: 'Jordan Lee', role: 'Product Manager', avatar: 'JL', status: 'idle' },
   { id: '4', name: 'Morgan Blake', role: 'Backend Dev', avatar: 'MB', status: 'active' },
