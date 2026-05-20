@@ -6,6 +6,6 @@ export const dashboardpageShiftManager = extensions.dashboardPage({
   routePath: "shift-manageר",
   component: "./extensions/dashboard/pages/shift-manager/page.tsx",
   createdBy: {
-    author: "CODE_GE",
+    author: "CODE_GEN",
   },
 });
