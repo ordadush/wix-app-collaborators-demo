@@ -1,7 +1,7 @@
 import { extensions } from "@wix/astro/builders";
 
 export const dataExtension = extensions.genericExtension({
-  compId: "db8b8c0c-f6f3-4bb2-98c3-3e6486a357bf",
+  compId: "db8b8c0c-f6f3-4bb2-98c3-3e6486a357bfa",
   compName: "data-extension",
   compType: "DATA_COMPONENT",
   compData: {
